@@ -1,0 +1,201 @@
+.addlocation {
+    display: flex;
+    flex-direction: column;
+    font-family: Raleway;
+  
+    width: 30vw;
+    height: 100vh;
+    background: #1e203bff;
+  }
+  
+  .div-x-addlocation {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  
+  .icon-x-addlocation {
+    font-size: 2vw;
+    margin-top: 5%;
+    margin-right: 5%;
+    cursor: pointer;
+  }
+  
+  .div-add-location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+  }
+  
+  .div-seeker-add-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  
+  .div-input-add-location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15vw;
+    height: 5vh;
+    margin-right: 1vw;
+    border: 1px solid #e7e7eb;
+  }
+  
+  .icon-add-location {
+    color: #616475;
+    font-size: 1.5vw;
+    margin-left: 0.5vw;
+  }
+  
+  .input-add-location {
+    width: 12vw;
+    height: 4vh;
+    font-size: 1vw;
+  
+    color: #616475;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .button-add-location {
+    width: 6vw;
+    height: 5vh;
+    background-color: #3c47e9;
+    color: white;
+    border: none;
+    font-family: Raleway;
+    font-size: 1vw;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .div-added-cities{
+    width: 22vw;
+    height: 70vh;
+    margin-top: 10%;
+  }
+  
+  .added-city{
+    width: 100%;
+    height: 10%;
+    border: 1px solid #616475;  
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .h3-added-city{
+    margin-left: 5%;
+  }
+  
+  .div-icon-added-city{
+    margin-right: 5%;
+  }
+  
+  @media (max-width: 768px) {
+    .addlocation {
+      display: flex;
+      flex-direction: column;
+      font-family: Raleway;
+    
+      width: 100vw;
+      height: 100vh;
+      background: #1e203bff;
+    }
+    
+    .div-x-addlocation {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+    }
+    
+    .icon-x-addlocation {
+      font-size: 10vw;
+      margin-top: 5%;
+      margin-right: 5%;
+      cursor: pointer;
+    }
+    
+    .div-add-location {
+      margin-top: 5%;
+    }
+    
+    .div-seeker-add-location {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5%;
+    }
+    
+    .div-input-add-location {
+      width: 55vw;
+      height: 5vh;
+      margin-right: 4vw;
+      border: 1px solid #e7e7eb;
+    }
+    
+    .icon-add-location {
+      color: #616475;
+      font-size: 5vw;
+      margin-left: 0.5vw;
+    }
+    
+    .input-add-location {
+      width: 50vw;
+      height: 5vh;
+      font-size: 4vw;
+    }
+    
+    .button-add-location {
+      width: 30vw;
+      height: 5vh;
+      background-color: #3c47e9;
+      color: white;
+      border: none;
+      font-family: Raleway;
+      font-size: 5vw;
+      font-weight: 600;
+      line-height: normal;
+    }
+    
+    .div-added-cities{
+      width: 90vw;
+      height: 70vh;
+      margin-top: 10%;
+    }
+    
+    .added-city{
+      width: 100%;
+      height: 10%;
+      border: 1px solid #616475;  
+      margin-bottom: 4%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .added-city:active {
+      background-color: #47495F;
+      transition: 0.5s;
+      transform: scale(1.05); 
+    }
+    
+    .h3-added-city{
+      margin-left: 5%;
+    }
+    
+    .div-icon-added-city{
+      margin-right: 5%;
+    }
+  }
