@@ -110,7 +110,7 @@ export const Today = ({ sendSearch, sendCountry }) => {
               </h2>
               <div className="div-date-location-info-weather">
                 <p className="p1-date-location-info-weather">
-                  {handleDate(weatherData.dt)} • {handleDate(weatherData.dt)}
+                  Today  •  {handleDate(weatherData.dt)}
                 </p>
                 <p className="p2-date-location-info-weather">
                   <FaLocationDot className="icon-date-location-info" />
