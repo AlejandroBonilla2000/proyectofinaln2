@@ -110,7 +110,7 @@ export const Today = ({ sendSearch, sendCountry }) => {
               </h2>
               <div className="div-date-location-info-weather">
                 <p className="p1-date-location-info-weather">
-                  Today  •  {handleDate(weatherData.dt)}
+                  oday • {handleDate(weatherData.dt)}
                 </p>
                 <p className="p2-date-location-info-weather">
                   <FaLocationDot className="icon-date-location-info" />
@@ -131,3 +131,4 @@ Today.propTypes = {
   sendSearch: PropTypes.func.isRequired,
   sendCountry: PropTypes.string.isRequired,
 };
+
