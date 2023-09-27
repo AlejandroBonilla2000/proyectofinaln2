@@ -112,6 +112,14 @@ export const WeatherWeek = ({ sendCountry }) => {
                       </strong>
                     </p>
                   </div>
+                  <div className='div-wind-status'>
+                    <div className='div-icon-wind-status'>
+                      <RiNavigationFill className='icon-wind-status' style={{ transform: `rotate(${forecast.wind.deg}deg)` }} />
+                    </div>
+                    <p className='p-wsw-wind-status'>
+                      {forecast.wind.deg}°
+                    </p>
+                  </div>
                 </div>
               ))}
             </div>
@@ -128,7 +136,7 @@ export const WeatherWeek = ({ sendCountry }) => {
                   </h2>
                   <div className='div-wind-status'>
                     <div className='div-icon-wind-status'>
-                      <RiNavigationFill className='icon-wind-status' />
+                      <RiNavigationFill className='icon-wind-status' style={{ transform: `rotate(${weatherData.list[0].wind.deg}deg)` }} />
                     </div>
                     <p className='p-wsw-wind-status'>
                       {weatherData.list[0].wind.deg}°
